@@ -1,18 +1,27 @@
 {
   "name": "f",
   "version": "1.0.2",
+  "engines": {
+    "node": "6.x.x"
+  },
   "description": "Functional Microservice Request Library",
   "main": "lib/f.js",
   "bin": {
     "f": "cli/bin.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Keith Horwood",
   "repository": {
     "type": "git",
     "url": "git://github.com/poly/f.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb-base": "^7.1.0",
+    "eslint-plugin-import": "^1.15.0",
+    "jest": "^15.1.1"
+  }
 }
