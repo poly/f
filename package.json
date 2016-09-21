@@ -10,7 +10,7 @@
     "f": "cli/bin.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Keith Horwood",
   "repository": {
@@ -22,5 +22,6 @@
     "eslint": "^3.5.0",
     "eslint-config-airbnb-base": "^7.1.0",
     "eslint-plugin-import": "^1.15.0",
+    "jest": "^15.1.1"
   }
 }
